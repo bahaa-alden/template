@@ -1,0 +1,138 @@
+.mobile {
+  display: block;
+  background-color: #1d1d1d;
+  color: white;
+  position: relative;
+  transition: all 1s;
+}
+span {
+  cursor: pointer;
+}
+.normal {
+  display: none;
+  color: white;
+}
+.h12 {
+  padding: 15px 30px;
+}
+/***************
+ 1.burger menu
+****************/
+.icon-menu {
+  background-color: #1d1d1d;
+  font-size: 32px;
+}
+.i {
+  position: absolute;
+  top: 14px;
+  right: 30px;
+  background-color: #1d1d1d;
+}
+/********************
+2.on-click
+*******************/
+#ham {
+  display: none;
+}
+
+#ham:checked + .on-click {
+  display: block;
+}
+
+.on-click {
+  display: none;
+}
+/*******
+3. main div
+*******/
+
+.main-div {
+  border-bottom: 3px solid black;
+}
+
+.ll {
+  display: block;
+  padding: 15px;
+  animation: mymove 1s 1;
+}
+.plus {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top: -10px;
+  right: 24px;
+}
+
+/*********
+4.sub-div
+**********/
+.sub-div {
+  padding: 5px;
+  margin-left: 15px;
+  list-style: none;
+}
+.s-div-l {
+  padding: 15px 0;
+  animation: mymove 1s 1;
+}
+.s-div-a:hover {
+  color: cyan;
+  font-weight: bold;
+}
+/*************
+5.main-click
+*************/
+.sub-div {
+  display: none;
+}
+
+#sad2 {
+  display: none;
+}
+
+#sad2:checked + .sub-div {
+  display: block;
+}
+/***************
+6.mini pro click
+***************/
+.l1 {
+  display: block;
+}
+.l1 i {
+  float: right;
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+  right: 34px;
+}
+.team {
+  flex-wrap: wrap;
+}
+.plans .plan .btn {
+  text-align: center;
+  padding: 10px 10px;
+}
+.element {
+  margin-top: 10px;
+}
+.wo {
+  flex-direction: column;
+}
+.wo .n1,
+.wo .cust {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #1d1d1d;
+}
+
+.plans{
+display:block;
+}
+.plans .plan{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+/**/
